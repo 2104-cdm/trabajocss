@@ -93,6 +93,9 @@ header{
     background-color: #94bce400;
     
 }
+.blancas{
+    color: white;
+}
 .pais-nombre{
     width: 20%;
     height: 100%;
@@ -224,6 +227,7 @@ main{
     width: 15%;
     background: linear-gradient(#412F59,#7D828C);
     border-radius: 5px;
+    cursor: pointer;
     border: none;
     height: 80%
     
