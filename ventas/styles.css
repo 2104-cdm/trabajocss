@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #aab1c2;
+    
+}
+header{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    gap: 15px;
+    color: white;
+    background-color: #6d788f;
+    
+}
+.logo{
+    width: 12%;
+    height: 100%;
+    background-color: #94bce400;
+}
+.logo1{
+    width: 100%;
+    height: 100%;
+}
+.lista{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: #94bce400;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 10%;
+    gap: 6%;
+    list-style: none;
+}
+.menu-hover:hover{
+    padding: 2%;
+    border-radius: 15%;
+    background-color: #5397da;
+}
+.buscador{
+    width: 18%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    gap: 2%;
+    background-color: #94bce400;
+}
+.buscador1{
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.pi-shop{
+    width: 19%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: end;
+    
+}
+.contenedor-bandera{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #94bce400;
+}
+.logo-bandera{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 21%;
+    background-color: #94bce400;
+    
+}
+.pais-nombre{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 5px;
+    background-color: #94bce400;
+}
+main{
+    width: 100%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #D8EDF2;
+}
+.contendor-principal{
+    width: 40%;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.cuadro-arriba{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(207, 201, 212);
+}
+.contenedor-requerimiento{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(0, 255, 42, 0);
+}
+.letras-titulo{
+    font-weight: bold;
+    font-style: oblique;
+}
+.organizacion-datos{
+    width: 100%;
+    height: 97%;
+    display: flex;
+
+    flex-direction: column;
+    gap: 25px;
+    
+}
+.tamano-letra{
+    font-size: large;
+    font-weight: bold;
+    font-style: inherit;
+}
+.tamano-contenedor{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+
+}
+.datos-contenidos{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 255, 0);
+}
+.datos-contenidos1{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 102, 0, 0);
+}
+.detalle-direcion{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    background-color: rgba(0, 0, 255, 0);
+}
+.mitad1{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.tamano-contenedro{
+    height: 80%;
+    border-radius: 10px;
+    border: none;
+}
+/* cuadro abajo */
+.cuadro-abajo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding: 5px;
+    background-color: rgb(207, 201, 212);
+
+}
+.tipos-depago{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.arriba{
+    width:100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+
+}
+.medio-bajo{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    /* background-color: antiquewhite; */
+
+}
+.cuadro{
+    width: 29%;
+    height: 70%;
+    font-size: large;
+    font-weight: bold;
+}
+.cuadro:hover{
+    color: white;
+    background: linear-gradient(#412F59,#7D828C);
+}
+.abajo{
+    width:100% ;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* background-color: rgb(136, 102, 58); */
+}
+.crecimiento{
+    padding: 5px;
+}
+.Datos-entarjeta{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    /* background-color: aqua; */
+}
+/* contenedor secundario */
+.contenedor-secundario{
+    width: 25%;
+    height: 100%;
+    gap: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.contenedor-pedidos{
+    width: 100%;
+    height: 35%;
+    gap: 10px;
+    background-color: #D9D5F2;
+
+}
+.padre-titulo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.padre-foto{
+    width: 100%;
+    height: 20%;
+}
+.imagen{
+    width: 15%;
+    height: 100%;
+    /* background-color: #5397da; */
+}
+.imagen-contenedor{
+    width: 100%;
+    height: 100%;
+}
+.contendor-foto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    /* background-color: red; */
+}
+.total-cuenta {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: rgb(201, 136, 57); */
+    padding: 10px; 
+}
+
+.total-suma {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.total-suma1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-top: 10px; 
+}
+.boton-grande{
+    width: 100%;
+    height: 15%;
+    background-color: rgba(119, 0, 255, 0);
+
+}
+.boton-grandesito {
+    width: 100%;
+    height: 100%;
+    padding: 15px; 
+    font-size: 13px; 
+    font-weight: bold;
+    border: none;
+    background: linear-gradient(#412F59,#7D828C);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+}
+
+.boton-grandesito:hover {
+    background-color: #407bbf; 
+}
+
+
