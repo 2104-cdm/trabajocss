@@ -101,3 +101,148 @@ header{
     padding-bottom: 5px;
     background-color: #94bce400;
 }
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: #D8EDF2;
+}
+.titulo-index{
+    width: 100%;
+    height: 21%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8EDF2;
+    
+}
+.lema{
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.fondo-dona{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #8ec4fa00;
+    
+}
+.boton-max{
+    border: none;
+    background-color: #ffffff;
+
+}
+
+.boton-max{
+    border: none;
+    padding: 5px;
+    background-color: #a1717100;
+
+}
+.productos-principal{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    background-color: #8ec4fa00;
+}
+.reducion{
+    width: 100%;
+    height: 80%;
+}
+.arreglar{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.aside-clas {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8ec4fa00;
+    padding: 20px; 
+}
+
+.promociones {
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.promocion1 {
+    width: 80%;
+    height: 40%; 
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+.palabra-centrar{
+    width: 64%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.palabra-centrar1{
+    width: 64%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.palabra-centrar2{
+    width: 64%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.boton-usar{
+    width: 15%;
+    background: linear-gradient(#412F59,#7D828C);
+    border-radius: 5px;
+    border: none;
+    height: 80%
+    
+}
+
+.oferta-promocion{ 
+    width: 80%; 
+    height: auto; 
+}
+
+.tamano-letras{
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ad53c9;
+}
