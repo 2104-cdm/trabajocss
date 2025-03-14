@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex; 
+    flex-direction: column;
+    background-color: #7D828C;
+}
+header{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    gap: 15px;
+    color: white;
+    background-color: #6d788f;
+    
+}
+.logo{
+    width: 12%;
+    height: 100%;
+    background-color: #94bce400;
+}
+.logo1{
+    width: 100%;
+    height: 100%;
+}
+.lista{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    background-color: #94bce400;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 10%;
+    gap: 6%;
+    list-style: none;
+}
+.menu-hover:hover{
+    padding: 2%;
+    border-radius: 15%;
+    background-color: #5397da;
+}
+.buscador{
+    width: 18%;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 7px;
+    padding-left: 3px;
+    gap: 2%;
+    background-color: #94bce400;
+}
+.buscador1{
+    width: 80%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+.pi-shop{
+    width: 19%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: end;
+    
+}
+.contenedor-bandera{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #94bce400;
+}
+.logo-bandera{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 21%;
+    background-color: #94bce400;
+    
+}
+.pais-nombre{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 5px;
+    background-color: #94bce400;
+}
+main{
+    width: 100%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #D8EDF2;
+}
+/* titulo carrito */
+.titulo-carrito{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(0, 255, 98, 0);
+}
+.nombre-titulo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D5F2;
+
+}
+.mejorar-letra{
+    font-size: xx-large;
+    font-weight: bold;
+    font-style:  oblique;
+
+}
+
+/* detalles del carrio */
+.detalles-carrito{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d9d5f200;
+}
+.detalles-nombres1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    gap: 1px;
+    background-color: rgb(105, 141, 158);
+}
+.separacion{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: #412F59;
+
+}
+.letras-producto{
+    font-size: large;
+    font-weight: bold;
+    font-style: inherit;
+    color: white;
+}
+.medio{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: #412F59;
+}
+
+.submedio{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: #412F59;
+}
+.subtotal{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction:  row-reverse;
+    padding: 25px;
+    background-color: #412F59;
+}
+/* los producto en el carrito */
+.producto-elejidos{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 98, 0);
+}
+
+/* cupon de descuento */
+.cupon-descuento{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* descuento */
+.contenedor-descuento{
+width: 80%;
+height: 100%;
+display: flex;
+gap: 1px;
+background-color: rgb(105, 141, 158);
+}
+.input-boton{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: center;
+}
+.input-rebaja{
+    width: 60%;
+    height: 50%;
+    padding: 15px;
+    border-radius: 15px;
+}
+.input-rebaja1{
+    width: 60%;
+    height: 40%;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(105, 141, 158);
+}
+.input-rebaja2{
+    width: 80%;
+    height: 60%;
+    color: white;
+    border-radius: 15px;
+    background: linear-gradient(#412F59,#7D828C);
+}
+.boton-medio{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.descuento-aplicado{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    background-color: #D9D5F2;
+}
+.borrarcarrito{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D5F2;
+}
+.aplicar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* detalles nombres */
+.detalles-nombres{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(105, 141, 158);
+}
+.x{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D5F2;
+}
+/* contenedor foto */
+.foto{
+    width: 15%;
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D5F2;
+}
+
+.contenedor-foto{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    
+}
+.desbordar{
+    width: 90%;
+    height: 90%;
+}
+/* contenedor nombre */
+
+.nombre{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #D9D5F2;
+}
+.tamano-oficial{
+    font-size: larger;
+    font-weight: bold;
+    font-style: inherit;
+}
+.transparentosa{
+    color: rgba(0, 0, 0, 0.61);
+}
+/* contenedor precio */
+.precio-procductoo{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #D9D5F2;
+}
+.tamano-oficial1{
+    font-size: larger;
+    /* font-weight: bold; */
+    font-style: inherit;
+}
+
+/* contenedor cantidad */
+.cantidad{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #D9D5F2;
+}
+.tamano-numero{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.733);
+    background-color: rgba(0, 255, 255, 0);
+}
+.menos{
+    width: 33%;
+    height: 100%;
+    border-radius: 15px;
+    font-size: 30px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-right: 5px solid rgba(154, 154, 163, 0); */
+    background-color: rgba(255, 255, 255, 0);
+}
+.numero4{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 15px; */
+    /* background-color: rgba(0, 0, 0, 0.144); */
+}
+.mas{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.total-precio{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#D9D5F2;
+}
