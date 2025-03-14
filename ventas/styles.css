@@ -242,6 +242,9 @@ main{
     color: white;
     background: linear-gradient(#412F59,#7D828C);
 }
+.blancas{
+    color: white;
+}
 .abajo{
     width:100% ;
     height: 45%;
